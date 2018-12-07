@@ -1,0 +1,30 @@
+{
+  "name": "algocad",
+  "version": "1.0.0",
+  "description": "A javascript test area for graphical algorithms",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drpentagon/algocad.git"
+  },
+  "keywords": [
+    "javascript",
+    "canvas",
+    "cad",
+    "algorithms",
+    "graphical"
+  ],
+  "author": "Martin Svärd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drpentagon/algocad/issues"
+  },
+  "homepage": "https://github.com/drpentagon/algocad#readme",
+  "devDependencies": {
+    "rollup": "^0.67.4",
+    "rollup-plugin-terser": "^3.0.0"
+  }
+}

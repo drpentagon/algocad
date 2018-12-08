@@ -37,6 +37,14 @@ class GraphicsHandler {
     const { ctx } = this
     ctx.lineWidth = width_
   }
+
+  drawCircle (x_, y_, r_) {
+    const {ctx} = this
+    ctx.beginPath()
+    ctx.arc(x_, y_, r_, 0, 2 * Math.PI)
+    ctx.stroke()
+    ctx.fill()
+  }
 }
 
 export default GraphicsHandler

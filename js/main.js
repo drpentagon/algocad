@@ -8,7 +8,10 @@ class Application {
   }
 
   start () {
-    console.log('application start')
+    const { gh } = this
+    gh.fillStyle = '#312b2b'
+    gh.strokeStyle = '#312b2b'
+    gh.drawCircle(300, 300, 20)
   }
 }
 

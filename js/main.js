@@ -1,6 +1,10 @@
+import GraphicsHandler from './graphics-handler.js'
+
+const CONTAINER = document.querySelector('.graphics-wrapper')
+
 class Application {
   constructor () {
-    console.log('initialized!')
+    this.gh = new GraphicsHandler(CONTAINER)
   }
 
   start () {

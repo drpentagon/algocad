@@ -1,4 +1,5 @@
 import GraphicsHandler from './graphics-handler.js'
+import Point from './objects/point.js'
 
 const CONTAINER = document.querySelector('.graphics-wrapper')
 
@@ -8,10 +9,8 @@ class Application {
   }
 
   start () {
-    const { gh } = this
-    gh.fillStyle = '#312b2b'
-    gh.strokeStyle = '#312b2b'
-    gh.drawCircle(300, 300, 20)
+    this.point = new Point(200, 300)
+    this.point.render(this.gh)
   }
 }
 

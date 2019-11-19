@@ -6,10 +6,14 @@ const CONTAINER = document.querySelector('.graphics-wrapper')
 class Application {
   constructor () {
     this.gh = new GraphicsHandler(CONTAINER)
+
+    window.onresize = (e) => {
+      this.gh.resizeCanvas()
+    }
   }
 
   start () {
-    this.point = new Point(200, 300)
+    this.point = new Point(100, 200)
     this.point.render(this.gh)
   }
 }

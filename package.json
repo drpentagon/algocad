@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/drpentagon/algocad#readme",
   "devDependencies": {
-    "rollup": "^0.67.4",
+    "rollup": "^3.29.5",
     "rollup-plugin-terser": "^3.0.0"
   }
 }
